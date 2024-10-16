@@ -1,0 +1,53 @@
+:root {
+	/* TYPOGRAPHY */
+	--font-family-primary: "Montserrat", sans-serif;
+	--font-family-secondary: "Fraunces", serif;
+	--font-size-xxl: 2rem;
+	--font-size-md: 0.875rem;
+	--font-size-sm: 0.75rem;
+	--letter-spacing-large: 5px;
+	--font-weight-medium: 500;
+	--font-weight-bold: 700;
+
+	/* SPACING */
+	--spacing-sm: 0.75rem;
+	--spacing-md: 1rem;
+	--spacing-lg: 1.5rem;
+	--spacing-xl: 1.75rem;
+	--spacing-xxl: 2rem;
+
+	/* COLORS */
+	--color-white: #fff;
+	--color-cream: #f2eae2;
+	--color-light-blue: #6c7289;
+	--color-light-green: #3d8168;
+	--color-dark-blue: #1c232b;
+	--color-dark-green: #1a4032;
+}
+
+body {
+	/* Typography */
+	background-color: var(--color-cream);
+	color: var(--color-light-blue);
+	font-family: var(--font-family-primary);
+	font-size: var(--font-size-md);
+	font-weight: var(--font-weight-medium);
+
+	/* Layout */
+	min-height: 100vh;
+	padding: var(--spacing-xl) var(--spacing-md);
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main {
+	max-width: 32rem;
+	margin: 0 auto;
+
+	@media screen and (min-width: 49rem) {
+		min-width: 37.5rem;
+		max-width: min(43%, 42rem);
+	}
+}
