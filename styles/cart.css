@@ -9,7 +9,7 @@
 .product-card__image {
 	& img {
 		border-radius: 9px 9px 0 0;
-		filter: brightness(0.94);
+		filter: brightness(0.97);
 	}
 }
 
