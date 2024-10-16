@@ -10,6 +10,7 @@
 	& img {
 		border-radius: 9px 9px 0 0;
 		filter: brightness(0.97);
+		filter: contrast(1.15);
 	}
 }
 
